@@ -15,4 +15,19 @@ def print_user_name(name):
     print()
 
 
+print((5 + 4) * 10 / 2) # 9 * 10 / 2 = 45.0
 
+print(((5 + 4) * 10) / 2) # 90 / 2 = 45.0
+
+print((5 + 4) * (10 / 2)) #  9 * 5 = 45.0
+
+print(5 + (4 * 10) / 2) # 5 + 20.0 = 25.0
+
+print(5 + 4 * 10 // 2) # 5 + 20 = 25
+
+
+def formatted_string(name):
+    print(f'Hello {name}, how are you?')
+
+
+formatted_string('Matias')
